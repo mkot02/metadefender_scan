@@ -25,9 +25,7 @@ Command short | Command long | Description | Default
 -e | --extension-exclude | Specify comma-separated list of file extensions. Files with specified extensions will not be scanned | None
 -o | --output | Specify file which scanning results will be saved to | None
 -s | --server | Specify URL of MetaDefender server | http://metadefender.example.com
-~~-k~~ | ~~--api-key~~ | ~~Specify API Key for MetaDefender server~~ | ~~None~~
-~~-u~~ | ~~--username~~ | ~~Specify username for login~~ | ~~None~~
-~~-p~~ | ~~--password~~ | ~~Specify password for login~~ | ~~None~~
+-k | --api-key | Specify API Key for MetaDefender server | None
 \- | --force | Send file to server even if there is cached result for this file | False
 -h | --help | Print this help message | 
 -j | --jobs | Specify how many concurrent jobs should be started. Works only if scanning directory | 5
